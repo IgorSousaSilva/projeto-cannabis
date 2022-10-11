@@ -8,8 +8,13 @@
     font-weight: normal;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 :root {
-    --cor00: black;
+    --cor00: white;
     --cor01: #022601;
     --cor02: #055902;
     --cor03: #067302;
@@ -32,17 +37,16 @@ header {
     background-color: var(--cor01);
 
 }
-header h1 {
+header > h1 {
     font-family: var(--fonte-maconha);
 }
 nav{
     background-color: var(--cor02);
 }
  main {
-        background-color: white;
+        background-color: var(--cor03);
         min-width: 300px;
         max-width: 1000px;
-        background-color: white;
         margin: auto;
         padding: 20px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
