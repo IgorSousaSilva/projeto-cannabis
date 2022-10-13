@@ -39,11 +39,32 @@ header {
 }
 header > h1 {
     font-family: var(--fonte-maconha);
+    padding-top: 20px;
 }
-nav{
+header > p {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+nav {
+    
+    padding: 8px;
     background-color: var(--cor02);
+    
 }
+nav > a {
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+nav > a:hover {
+    text-decoration: underline;
+    background-color: var(--cor04) ;
+}
+
  main {
+    
         background-color: var(--cor03);
         min-width: 300px;
         max-width: 1000px;
@@ -53,3 +74,16 @@ nav{
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
  }
+
+article  {
+    text-indent: 10px;
+    
+}
+
+article h2 {
+    font-family: var(--fonte-maconha);
+}
+aside {
+background-color: var(--cor04);
+
+}
